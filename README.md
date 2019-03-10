@@ -31,4 +31,4 @@ The following is a function used to generate alerts that work with the default B
         document.alertHandler.initAlert(document.body,str,'button',allowSpec,'alert-'+type,closeClass);
     }
     
-[JS Fiddle Example](https://jsfiddle.net/mq50opL7/)
+[JS Fiddle Example](https://jsfiddle.net/rey7pusz/3/)
