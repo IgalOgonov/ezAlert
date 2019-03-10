@@ -43,9 +43,9 @@ class ezAlert{
         }
         //If we do not allow any special characters
         if(!allowSpec){
-            let regex = /\W| |\.|\,|\!|\?|\'| /g;
+            let regex = /\w| |\.|\,|\!|\?|\"'/g;
             let found = content.match(regex);
-            if(found !== null){
+            if(found.length < content.length){
                 console.log('Alert content may not have any characters that do not match ',regex);
                 return false;
             }
