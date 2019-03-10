@@ -33,4 +33,4 @@ The following is a function used to generate alerts that work with the default B
     
     [JS Fiddle Example](1)
     
-    [1](https://jsfiddle.net/mq50opL7/)
+    [1]: https://jsfiddle.net/mq50opL7/
